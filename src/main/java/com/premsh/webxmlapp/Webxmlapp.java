@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class Webxmlapp {
 	public Webxmlapp() {
-		System.out.println();
+		System.out.println("Bean Created");
 	}
 	@GetMapping("/")
 	public ResponseEntity<String> index(){
